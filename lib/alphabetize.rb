@@ -14,7 +14,7 @@ p arr
   arr2 = arr.sort_by do |ele| 
     # el = ele.each_char do |char|
       ESPERANTO_ALPHABET.index(ele)
-    end
+    # end
     # p el
   end
     
