@@ -9,7 +9,7 @@ ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 # end
 
 def alphabetize(arr)
-# p arr
+p arr
 
   arr2 = arr.sort_by do |ele| 
     el = ele.each_char do |char|
