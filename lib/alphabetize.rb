@@ -13,11 +13,10 @@ p arr
 
   arr2 = arr.sort_by do |ele| 
     el = ele.each_char do |char|
-      p ESPERANTO_ALPHABET.index(char)
-      
+      ESPERANTO_ALPHABET.index(char)
     end
   end
-    
+    p arr2 
   return arr2.sort_by{|ele| ESPERANTO_ALPHABET.index(ele[0])}
 
 end
